@@ -683,7 +683,7 @@ const PROVIDERS={
     name:'Google Gemini',
     placeholder:'AIza••••••••••••••••••••••••••••••',
     hint:'API key de Google AI Studio. <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com/app/apikey</a>',
-    chatModels:['gemini-2.5-flash','gemini-2.0-flash','gemini-1.5-flash'],
+    chatModels:['Gemini 3.5 Flash'],
     _toGeminiMessages(messages){
       const sys=messages.find(m=>m.role==='system');
       const rest=messages.filter(m=>m.role!=='system');
